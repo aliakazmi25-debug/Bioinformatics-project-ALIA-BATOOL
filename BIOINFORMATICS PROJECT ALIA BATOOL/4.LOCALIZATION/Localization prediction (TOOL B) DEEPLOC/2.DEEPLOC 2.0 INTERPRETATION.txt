@@ -1,0 +1,5 @@
+DeepLoc 2.0 uses a protein language model to predict multi-label subcellular localizations for eukaryotic and prokaryotic-like sequences.
+Result: 
+The primary predicted location is Cytoplasm with a high probability score.
+Interpretation: 
+DeepLoc identifies the amino acid composition and internal motifs of the protein. The absence of membrane-spanning domains or extracellular secretion signals leads the model to classify the protein as a soluble cytoplasmic resident.

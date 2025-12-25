@@ -1,0 +1,8 @@
+Final predicted localization is cytoplasm.
+
+Justification of Final Predicted Location:
+The prediction of a cytoplasmic location is justified by the following evidence:
+Absence of Targeting Signals: Both TargetP 2.0 and PSORT confirm the lack of a signal peptide at the N-terminus. Without these signals, a protein cannot be translocated across the inner membrane to the periplasm or outer membrane in Klebsiella pneumoniae.
+High Statistical Confidence: The 0.9999 score from TargetP is a definitive indicator of a non-secreted, cytoplasmic protein.
+Functional Alignment: Your previous InterPro result identified this as an HSP20 (Small Heat Shock Protein). Small heat shock proteins (sHSPs) are typically soluble chaperones that function in the cytoplasm to prevent the aggregation of other cytosolic proteins during stress.
+Biological Consistency: Since Klebsiella is a bacterium, it lacks membrane-bound organelles like a nucleus or mitochondria. Any tool (like DeepLoc) that might show "Nuclear" or "Mitochondrial" scores is interpreting bacterial signals using eukaryotic rules; however, the overwhelming "Cytoplasmic" score remains the only biologically valid choice for a bacterial chaperone

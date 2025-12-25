@@ -1,0 +1,11 @@
+•Length (Longest ORF):
+ In prokaryotes (like Klebsiella pneumoniae), the longest ORF in a sequence is statistically the most likely to be a functional, protein-coding gene. Short ORFs often occur by random chance, but a long continuous stretch without a stop codon (like your 570 bp query) usually indicates a real gene.
+
+•Presence of Canonical Start/Stop Codons:
+ORF 1 typically begins with the standard start codon (ATG) and ends with a recognized stop codon (TAA, TAG, or TGA). The fact that ORF 1 spans the full length of your 570 bp sequence suggests it is a complete coding sequence (CDS).
+
+•Alignment with Known Proteins: 
+Since your earlier BLASTn results showed a 100% identity to Klebsiella plasmids, selecting the primary ORF (ORF 1) ensures that the translated protein will match known functional proteins (like antibiotic resistance enzymes) found in those plasmids.
+
+•Frame and Strand Orientation: 
+ORF 1 is usually in the +1 frame (the first reading frame). If this frame yields a 100% match in protein databases, it confirms that this is the "sense" strand being transcribed and translated

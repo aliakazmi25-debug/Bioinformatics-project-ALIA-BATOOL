@@ -1,0 +1,3 @@
+TargetP 2.0 is designed to detect N-terminal signal peptides that direct proteins to secretory pathways or specific organelles.
+Result: The "Other" likelihood score is 0.9999.
+Interpretation: An "Other" result in TargetP 2.0 means the protein lacks a signal peptide (SP), mitochondrial transit peptide (mTP), or chloroplast transit peptide (cTP). A score of 0.9999 indicates an almost 100% probability that the protein remains in the cytosol because it lacks the necessary "address labels" to be transported elsewhere.
